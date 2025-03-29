@@ -7,11 +7,16 @@
     "directory": "./dist"
   },
   "env": {
-      "preview": {
-          "vars": {
-              "MODE": "client"
-          }
+    "preview": {
+      "vars": {
+        "MODE": "client"
       }
+    },
+    "production": {
+      "vars": {
+        "MODE": "client"
+      }
+    }
   }
   // "kv_namespaces": [
   //   {
