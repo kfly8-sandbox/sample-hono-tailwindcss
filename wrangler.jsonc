@@ -4,11 +4,15 @@
   "compatibility_date": "2024-04-01",
   "main": "./src/index.tsx",
   "assets": {
-    "directory": "./public"
+    "directory": "./dist"
+  },
+  "env": {
+      "preview": {
+          "vars": {
+              "MODE": "client"
+          }
+      }
   }
-  // "vars": {
-  //   "MY_VAR": "my-variable"
-  // },
   // "kv_namespaces": [
   //   {
   //     "binding": "MY_KV_NAMESPACE",
